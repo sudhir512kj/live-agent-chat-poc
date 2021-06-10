@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@cometchat-pro/chat": "^1.0.3",
+    "@cometchat-pro/chat": "^2.3.6",
     "bootstrap": "^4.2.1",
     "react": "^16.7.0",
     "react-chat-widget": "^2.1.4-1",

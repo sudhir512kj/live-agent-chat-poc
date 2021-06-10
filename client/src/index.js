@@ -6,6 +6,9 @@ import App from './App';
 import { CometChat } from '@cometchat-pro/chat';
 import config from './config';
 
-CometChat.init(config.appID)
+let cometChatSettings = new CometChat.AppSettingsBuilder().subscribePresenceForAllUsers().setRegion("us").build();
+
+
+CometChat.init(config.appID, cometChatSettings)
 
 ReactDOM.render(<App />, document.getElementById('root'));

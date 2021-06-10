@@ -87,7 +87,6 @@ class Client extends Component {
     var textMessage = new CometChat.TextMessage(
       agentUID,
       newMessage,
-      CometChat.MESSAGE_TYPE.TEXT,
       CometChat.RECEIVER_TYPE.USER
     );
     let uid = localStorage.getItem("cc-uid");

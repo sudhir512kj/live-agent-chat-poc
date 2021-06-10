@@ -2,11 +2,11 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 
-const appID = '{appID}';
-const apiKey = '{apiKey}';
-const agentUID = '{agentUID}';
+const appID = '34678f3ced46957';
+const apiKey = 'dcf91521217b6f3f7a17435f8eee1fc7bb6655fe';
+const agentUID = 'agent';
 
-const url = 'https://api.cometchat.com/v1';
+const url = 'https://api-us.cometchat.io/v2.0';
 
 const headers = {
   'Content-Type': 'application/json',

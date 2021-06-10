@@ -82,7 +82,6 @@ class Agent extends Component {
     var textMessage = new CometChat.TextMessage(
       this.state.selectedCustomer,
       message,
-      CometChat.MESSAGE_TYPE.TEXT,
       CometChat.RECEIVER_TYPE.USER
     );
 
